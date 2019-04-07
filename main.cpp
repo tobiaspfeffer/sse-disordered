@@ -25,6 +25,7 @@ int main (int argc, char *argv[])
   in_config >> params["h"]; getline(in_config,buffer);  // diagonal disorder
   
   std::string file_extension = "";
+  
   sse_XXZ disordered_XXZ(params,file_extension);
   
   std::cout << std::endl << "# Starting simulation with parameters" << std::endl << std::endl;

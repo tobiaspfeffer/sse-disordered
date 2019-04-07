@@ -16,8 +16,6 @@
 /// H = \sum_{<i,j>}[ J_{i,j}/2 * ( S_i^+ S_j^- + S_i^- S_j^+) + V_{i,j} S_i^Z S_j^Z ]- \sum_{i} h_i S_i^Z
 /// with arbitrary J_{i,j} and h_i
 
-
-
 class sse_XXZ
 {
   double Pi;

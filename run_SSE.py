@@ -25,7 +25,6 @@ epsilon = 0.5			# to ensure positive weights
 h = 1. 					# diagonal disorder
 
 run_time = 96*3600
-
 number_of_realizations = 1  # number of disorder realizations for the disorder average
 
 # make a executable out of the src files

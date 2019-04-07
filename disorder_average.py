@@ -31,5 +31,4 @@ for i in range(number_of_realizations):
 
   np.savetxt('./qc_obs/t_hop_b', random_hopping)
   np.savetxt('./qc_obs/h_sites', random_fields)
-
   p = subprocess.call('./SSE', shell=True)
