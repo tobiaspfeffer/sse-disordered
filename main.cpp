@@ -51,4 +51,3 @@ int main (int argc, char *argv[])
     disordered_XXZ.set_bin(ibin);
   }
 }
-
